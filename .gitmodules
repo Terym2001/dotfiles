@@ -1,0 +1,6 @@
+[submodule "catppuccin"]
+	path = catppuccin
+	url = https://github.com/catppuccin/catppuccin
+[submodule "alacritty/catppuccin"]
+	path = alacritty/catppuccin
+	url = https://github.com/catppuccin/catppuccin
