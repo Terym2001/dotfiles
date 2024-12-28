@@ -4,3 +4,6 @@
 [submodule "alacritty/catppuccin"]
 	path = alacritty/catppuccin
 	url = https://github.com/catppuccin/catppuccin
+[submodule "alacritty/cattpucin"]
+	path = alacritty/cattpucin
+	url = https://github.com/catppuccin/alacritty.git
