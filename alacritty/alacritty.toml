@@ -27,4 +27,4 @@ style = "Medium"
 live_config_reload = true
 
 # Color scheme
-import = ["~/.config/alacritty/cattpucin/catppuccin-macchiato.toml"]
+import = ["~/.config/alacritty/cattpucin/catppuccin-mocha.toml"]

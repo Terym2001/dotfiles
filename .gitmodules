@@ -7,3 +7,6 @@
 [submodule "alacritty/cattpucin"]
 	path = alacritty/cattpucin
 	url = https://github.com/catppuccin/alacritty.git
+[submodule "waybar/waybar"]
+	path = waybar/waybar
+	url = https://github.com/catppuccin/waybar.git
