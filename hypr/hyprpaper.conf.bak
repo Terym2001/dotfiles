@@ -1,0 +1,13 @@
+preload = /home/terym/images/wallpaper/white_firewatch.png
+preload = /home/terym/images/wallpaper/sunset_river.jpg
+preload = /home/terym/images/wallpaper/stary-firewatch.jpg
+# .. more preloads
+
+#set the default wallpaper(s) seen on initial workspace(s) --depending on the number of monitors used
+wallpaper = , /home/terym/images/wallpaper/white_firewatch.png
+
+#enable splash text rendering over the wallpaper
+splash = true
+
+#fully disable ipc
+# ipc = off
