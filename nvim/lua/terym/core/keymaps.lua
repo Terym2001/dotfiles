@@ -25,3 +25,20 @@ keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer
 keymap.set("n", "<leader>p", "<cmd>lua require('nabla').enable_virt({autogen = true, silent = true})<CR>", { desc = "use nabla" })
 keymap.set("n", "<leader>[", "<cmd>lua require('nabla').disable_virt()<CR>", { desc = "use nabla" })
 
+-- Molten keybindings
+keymap.set("n", "<leader>mi", ":MoltenInit<CR>",
+    { desc = "Initialize the plugin" })
+keymap.set("n", "<leader>e", ":MoltenEvaluateOperator<CR>",
+    { desc = "run operator selection" })
+keymap.set("n", "<leader>rl", ":MoltenEvaluateLine<CR>",
+    { desc = "evaluate line" })
+keymap.set("n", "<leader>rr", ":MoltenReevaluateCell<CR>",
+    { desc = "re-evaluate cell" })
+keymap.set("v", "<leader>r", ":<C-u>MoltenEvaluateVisual<CR>gv",
+    { desc = "evaluate visual selection" })
+keymap.set("n", "<leader>rd", ":MoltenDelete<CR>",
+    { desc = "molten delete cell" })
+keymap.set("n", "<leader>oh", ":MoltenHideOutput<CR>",
+    { desc = "hide output" })
+keymap.set("n", "<leader>os", ":noautocmd MoltenEnterOutput<CR>",
+    { desc = "show/enter output" })
